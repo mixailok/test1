@@ -30,4 +30,15 @@ $(document).ready(function(){
 }				
 			)
 			});
+$(document).on('click', '.float-right', function() { //alert
+			swal(						
+{
+  title: 'Упс, что-то не так...',
+  text: "Сайт временно не работает. Для обратной связи просим писать на почту: podarki.shop.by@mail.ru",
+  type: 'error',
+  showCancelButton: false,
+  confirmButtonColor: '#c9a0dc',
+}				
+			)
+			});
 		
