@@ -31,9 +31,6 @@ $(document).ready(function(){
 			)
 			});
 
-$(document).on('click', '.float-right', function() { //alert
-			
-			});
 function mydo(){alert("Из шляпы достали "+i+" кролика!")};			
 			
  	$(document).on('click', '.float-right', mydo() );		
