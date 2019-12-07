@@ -19,7 +19,7 @@ $(document).ready(function(){
                 }); 
                 $('.tm-current-year').text(new Date().getFullYear());   //вывод корректной даты             
             });
- 	$(document).on('click', '.float-right', function(e) { //alert
+ 	$(document).on('click', '.float-right', function() { //alert
 			swal(						
 {
   title: 'Упс, что-то не так...',
